@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# reEstate
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+reEstate is a React Native application that allows users to list and sell properties. It leverages Appwrite for backend services and Expo for building and running the app.
 
-## Get started
+## Features
 
-1. Install dependencies
+- User authentication with OAuth2 (Google)
+- List and view properties
+- Search and filter properties
+- View featured properties
+- User profile with avatar
 
-   ```bash
+## Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/yourusername/reEstate.git
+   cd reEstate
+   ```
+
+2. Install dependencies:
+
+   ```sh
    npm install
    ```
 
-2. Start the app
+3. Create a `.env` file in the root directory and add your Appwrite configuration:
 
-   ```bash
-    npx expo start
+   ```env
+   EXPO_PUBLIC_APPWRITE_ENDPOINT=your_appwrite_endpoint
+   EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
+   EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_database_id
+   EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID=your_galleries_collection_id
+   EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID=your_reviews_collection_id
+   EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID=your_agents_collection_id
+   EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID=your_properties_collection_id
    ```
 
-In the output, you'll find options to open the app in a
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Scripts
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- `npm start`: Start the Expo development server
+- `npm run android`: Start the app on an Android emulator or device
+- `npm run ios`: Start the app on an iOS simulator or device
+- `npm run web`: Start the app in a web browser
+- `npm run test`: Run tests with Jest
+- `npm run lint`: Run linter
 
-## Get a fresh project
+## Contributing
 
-When you're ready, run:
+Contributions are welcome! Please open an issue or submit a pull request.
 
-```bash
-npm run reset-project
-```
+## License
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License.
