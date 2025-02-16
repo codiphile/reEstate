@@ -54,6 +54,7 @@ reEstate is a React Native application that allows users to list and sell proper
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
+Feel free to connect about the project!
 
 ## License
 
