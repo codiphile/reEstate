@@ -1,6 +1,6 @@
 # reEstate
 
-reEstate is a React Native full-stack application that allows users to list and sell properties. It leverages Appwrite for backend services and Expo for building and running the app.
+reEstate is a React-Native full-stack application that allows users to list and sell properties. It leverages Appwrite for backend services and Expo for building and running the app.
 
 ## Features
 
