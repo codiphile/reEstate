@@ -8,7 +8,7 @@ reEstate is a React-Native full-stack application that allows users to list and 
 - List and view properties
 - Search and filter properties
 - View featured properties
-- User profile with avatar
+- User profile with avatarr
 
 ## Installation
 
